@@ -1,0 +1,27 @@
+.card-block{
+    text-align: right;
+    padding: 2%;
+    
+}
+.btn-btn-danger{
+    
+    display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: green;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.btn-btn-danger:hover {background-color: red}
+
+.btn-btn-danger:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

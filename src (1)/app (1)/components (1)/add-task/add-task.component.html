@@ -1,0 +1,9 @@
+<div>
+    <form (ngSubmit)="onSubmit()">
+        <label for="task">Enter a task</label><br>
+        <input type="text" name="task" placeholder="Enter task" [(ngModel)]="task"><br>
+        <label for="task">Select a date</label><br>
+        <input type="date" name="date" [(ngModel)]="day"><br>
+        <input type="submit" value="Save Task"><br>
+    </form>
+</div>

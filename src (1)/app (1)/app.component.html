@@ -1,0 +1,14 @@
+<asl-google-signin-button *ngIf="!user"></asl-google-signin-button>
+
+  
+  <div *ngIf="user" class="card text-center">
+    <link rel = "stylesheet" href="app.component.css">
+
+    <div class="card-block">
+        <button class="btn-btn-danger" (click)="signOut()">SignOut</button>
+    </div>
+        <h1>TO-DO APPLICATION</h1>
+        <app-add-task></app-add-task>
+        <app-list-tasks></app-list-tasks>
+        <router-outlet></router-outlet>
+  </div>
